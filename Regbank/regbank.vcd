@@ -1,0 +1,100 @@
+$date
+	Tue Nov 19 19:20:22 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module regbanktb $end
+$var wire 32 ! regSrc1 [31:0] $end
+$var wire 32 " regSrc0 [31:0] $end
+$var reg 1 # CSBar $end
+$var reg 1 $ RDWRBar $end
+$var reg 1 % clk $end
+$var reg 32 & regDst [31:0] $end
+$var reg 5 ' regSelDst [4:0] $end
+$var reg 5 ( regSelSrc0 [4:0] $end
+$var reg 5 ) regSelSrc1 [4:0] $end
+$scope module RegB $end
+$var wire 1 # CSBar $end
+$var wire 1 $ RDWRBar $end
+$var wire 1 % clk $end
+$var wire 32 * regDst [31:0] $end
+$var wire 5 + regSelDst [4:0] $end
+$var wire 5 , regSelSrc0 [4:0] $end
+$var wire 5 - regSelSrc1 [4:0] $end
+$var reg 32 . regSrc0 [31:0] $end
+$var reg 32 / regSrc1 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx /
+bx .
+bx -
+bx ,
+b0 +
+b11111010111010101111101011101010 *
+bx )
+bx (
+b0 '
+b11111010111010101111101011101010 &
+0%
+1$
+1#
+bx "
+bx !
+$end
+#5
+b0 !
+b0 /
+1%
+#10
+0%
+0#
+0$
+b11 '
+b11 +
+#15
+1%
+#20
+0%
+#25
+1%
+#30
+0%
+1#
+1$
+#35
+1%
+#40
+0%
+0#
+b11 (
+b11 ,
+#45
+bx !
+bx /
+b11111010111010101111101011101010 "
+b11111010111010101111101011101010 .
+1%
+#50
+0%
+#55
+b0 !
+b0 /
+1%
+1#
+#60
+0%
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+0%

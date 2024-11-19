@@ -21,15 +21,15 @@ input CSBar, RDWRBar, clk ;
       // Read from the register bank as RDWRBar is high
         1'b1: 
         begin
-             assign regSrc0= regBank[regSelSrc0] ;
-              assign regSrc1= regBank[regSelSrc1] ;
+             regSrc0 <= regBank[regSelSrc0] ;
+             regSrc1 <= regBank[regSelSrc1] ;
         end
       //  default: 
       endcase
       else begin
               // will have to assign undefined X
-              assign regSrc0= 32'b0;
-              assign regSrc1= 32'b0;
+              // regSrc0= 32'b0;
+               regSrc1= 32'b0;
         end
           
     end
