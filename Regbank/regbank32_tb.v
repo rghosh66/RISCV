@@ -10,15 +10,16 @@ module regbanktb ();
 // RDWRBar - RD is positive level, WR is negative level
 reg [31:0] regDst ;
 reg [4:0] regSelSrc0, regSelSrc1, regSelDst;
-reg RDWRBar, CSBar, clk;
+reg RDWRBar, CSBar, clk, reset;
 
 // Output of the 32 X 32 Register bank
 // These feed the ALU
 wire [31:0] regSrc0, regSrc1;
+integer i;
 
 regBank32 RegB(.regSrc0(regSrc0), .regSrc1(regSrc1), .regDst(regDst),
 .regSelSrc0(regSelSrc0), .regSelSrc1(regSelSrc1), .regSelDst(regSelDst), 
-.RDWRBar(RDWRBar), .CSBar(CSBar), .clk(clk) );
+.RDWRBar(RDWRBar), .CSBar(CSBar), .clk(clk), .reset(reset) );
 
 always  #5 clk = ~clk;
 initial begin
@@ -29,6 +30,9 @@ initial begin
      regDst = 32'hFAEAFAEA;
      RDWRBar = 1'b1;
      CSBar = 1'b1;
+// Apply reset to the register bank
+#2 reset  = 1'b0; 
+#7 reset  = 1'b1; // release the reset
      
 // Write into location Reg[0] with pattern 8h'FAEAFAEA
     #10 regSelDst = 5'b 00011;
@@ -47,7 +51,27 @@ initial begin
         CSBar   =  1'b 0;
         $display("T=%d, regSelSrc0=%h, regSelSrc1=%h, regSelDst=%h, RDWRBar=%b, CSBar=%b, regSrc0=%h, regSrc1=%h, regDst=%", $time,regSelSrc0, regSelSrc1,regSelDst,RDWRBar, CSBar, regSrc0,regSrc1,regDst);
     #15 CSBar = 1'b1 ;
-#25 $finish;
+
+ // Store all location of RegBank with i*10   
+#10 CSBar = 0;
+#10
+ for (i=0; i <= 31; i=i+1)
+ begin
+     RDWRBar = 0;
+     regSelDst = i;
+     regDst  = i * 10;
+ #12  RDWRBar = 1'b1;
+ end
+// Read all the locations of RegBank
+ #10
+for (i=0; i <= 31; i=i+1)
+ begin
+     RDWRBar = 1'b1;
+     regSelSrc0 = i;
+     regSelSrc1 = i; 
+  #12 RDWRBar = 1'b0;
+ end
+#1000 $finish;
 
 end
 
