@@ -1,0 +1,833 @@
+$date
+	Sun Dec  1 15:34:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CLA32tb $end
+$var wire 32 ! S [31:0] $end
+$var wire 1 " COUT $end
+$var reg 32 # A [31:0] $end
+$var reg 32 $ B [31:0] $end
+$var reg 1 % CIN $end
+$var integer 32 & i [31:0] $end
+$scope module CLA32_UUT $end
+$var wire 32 ' a [31:0] $end
+$var wire 32 ( b [31:0] $end
+$var wire 1 % cin $end
+$var wire 1 " cout $end
+$var wire 32 ) s [31:0] $end
+$var wire 32 * p [31:0] $end
+$var wire 32 + g [31:0] $end
+$var wire 32 , c [31:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 - i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 . i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 / i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 0 i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 1 i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 2 i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 3 i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 4 i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 5 i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 6 i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 7 i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 8 i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 9 i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 : i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 ; i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 < i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 = i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 > i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 ? i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 @ i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 A i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 B i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 C i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 D i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 E i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 F i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 G i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 H i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 I i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 J i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 K i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 L i $end
+$upscope $end
+$scope begin genblk2[0] $end
+$var parameter 2 M i $end
+$upscope $end
+$scope begin genblk2[1] $end
+$var parameter 2 N i $end
+$upscope $end
+$scope begin genblk2[2] $end
+$var parameter 3 O i $end
+$upscope $end
+$scope begin genblk2[3] $end
+$var parameter 3 P i $end
+$upscope $end
+$scope begin genblk2[4] $end
+$var parameter 4 Q i $end
+$upscope $end
+$scope begin genblk2[5] $end
+$var parameter 4 R i $end
+$upscope $end
+$scope begin genblk2[6] $end
+$var parameter 4 S i $end
+$upscope $end
+$scope begin genblk2[7] $end
+$var parameter 4 T i $end
+$upscope $end
+$scope begin genblk2[8] $end
+$var parameter 5 U i $end
+$upscope $end
+$scope begin genblk2[9] $end
+$var parameter 5 V i $end
+$upscope $end
+$scope begin genblk2[10] $end
+$var parameter 5 W i $end
+$upscope $end
+$scope begin genblk2[11] $end
+$var parameter 5 X i $end
+$upscope $end
+$scope begin genblk2[12] $end
+$var parameter 5 Y i $end
+$upscope $end
+$scope begin genblk2[13] $end
+$var parameter 5 Z i $end
+$upscope $end
+$scope begin genblk2[14] $end
+$var parameter 5 [ i $end
+$upscope $end
+$scope begin genblk2[15] $end
+$var parameter 5 \ i $end
+$upscope $end
+$scope begin genblk2[16] $end
+$var parameter 6 ] i $end
+$upscope $end
+$scope begin genblk2[17] $end
+$var parameter 6 ^ i $end
+$upscope $end
+$scope begin genblk2[18] $end
+$var parameter 6 _ i $end
+$upscope $end
+$scope begin genblk2[19] $end
+$var parameter 6 ` i $end
+$upscope $end
+$scope begin genblk2[20] $end
+$var parameter 6 a i $end
+$upscope $end
+$scope begin genblk2[21] $end
+$var parameter 6 b i $end
+$upscope $end
+$scope begin genblk2[22] $end
+$var parameter 6 c i $end
+$upscope $end
+$scope begin genblk2[23] $end
+$var parameter 6 d i $end
+$upscope $end
+$scope begin genblk2[24] $end
+$var parameter 6 e i $end
+$upscope $end
+$scope begin genblk2[25] $end
+$var parameter 6 f i $end
+$upscope $end
+$scope begin genblk2[26] $end
+$var parameter 6 g i $end
+$upscope $end
+$scope begin genblk2[27] $end
+$var parameter 6 h i $end
+$upscope $end
+$scope begin genblk2[28] $end
+$var parameter 6 i i $end
+$upscope $end
+$scope begin genblk2[29] $end
+$var parameter 6 j i $end
+$upscope $end
+$scope begin genblk2[30] $end
+$var parameter 6 k i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11110 k
+b11101 j
+b11100 i
+b11011 h
+b11010 g
+b11001 f
+b11000 e
+b10111 d
+b10110 c
+b10101 b
+b10100 a
+b10011 `
+b10010 _
+b10001 ^
+b10000 ]
+b1111 \
+b1110 [
+b1101 Z
+b1100 Y
+b1011 X
+b1010 W
+b1001 V
+b1000 U
+b111 T
+b110 S
+b101 R
+b100 Q
+b11 P
+b10 O
+b1 N
+b0 M
+b11111 L
+b11110 K
+b11101 J
+b11100 I
+b11011 H
+b11010 G
+b11001 F
+b11000 E
+b10111 D
+b10110 C
+b10101 B
+b10100 A
+b10011 @
+b10010 ?
+b10001 >
+b10000 =
+b1111 <
+b1110 ;
+b1101 :
+b1100 9
+b1011 8
+b1010 7
+b1001 6
+b1000 5
+b111 4
+b110 3
+b101 2
+b100 1
+b11 0
+b10 /
+b1 .
+b0 -
+$end
+#0
+$dumpvars
+bx0 ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+0%
+bx $
+bx #
+x"
+bx !
+$end
+#5
+b0 &
+bx1 ,
+1%
+#10
+b0 !
+b0 )
+0"
+b0 +
+b0 *
+b0 ,
+0%
+b0 $
+b0 (
+b0 #
+b0 '
+#15
+b1 !
+b1 )
+b1 &
+b1 ,
+1%
+#20
+b10 !
+b10 )
+b1 +
+b10 ,
+0%
+b1 $
+b1 (
+b1 #
+b1 '
+#25
+b11 !
+b11 )
+b10 &
+b11 ,
+1%
+#30
+b100 !
+b100 )
+b10 +
+b100 ,
+0%
+b10 $
+b10 (
+b10 #
+b10 '
+#35
+b101 !
+b101 )
+b11 &
+b101 ,
+1%
+#40
+b110 !
+b110 )
+b11 +
+b110 ,
+0%
+b11 $
+b11 (
+b11 #
+b11 '
+#45
+b111 !
+b111 )
+b100 &
+b111 ,
+1%
+#50
+b1000 !
+b1000 )
+b100 +
+b1000 ,
+0%
+b100 $
+b100 (
+b100 #
+b100 '
+#55
+b1001 !
+b1001 )
+b101 &
+b1001 ,
+1%
+#60
+b1010 !
+b1010 )
+b101 +
+b1010 ,
+0%
+b101 $
+b101 (
+b101 #
+b101 '
+#65
+b1011 !
+b1011 )
+b110 &
+b1011 ,
+1%
+#70
+b1100 !
+b1100 )
+b110 +
+b1100 ,
+0%
+b110 $
+b110 (
+b110 #
+b110 '
+#75
+b1101 !
+b1101 )
+b111 &
+b1101 ,
+1%
+#80
+b1110 !
+b1110 )
+b111 +
+b1110 ,
+0%
+b111 $
+b111 (
+b111 #
+b111 '
+#85
+b1111 !
+b1111 )
+b1000 &
+b1111 ,
+1%
+#90
+b10000 !
+b10000 )
+b1000 +
+b10000 ,
+0%
+b1000 $
+b1000 (
+b1000 #
+b1000 '
+#95
+b10001 !
+b10001 )
+b1001 &
+b10001 ,
+1%
+#100
+b10010 !
+b10010 )
+b1001 +
+b10010 ,
+0%
+b1001 $
+b1001 (
+b1001 #
+b1001 '
+#105
+b10011 !
+b10011 )
+b1010 &
+b10011 ,
+1%
+#110
+b10100 !
+b10100 )
+b1010 +
+b10100 ,
+0%
+b1010 $
+b1010 (
+b1010 #
+b1010 '
+#115
+b10101 !
+b10101 )
+b1011 &
+b10101 ,
+1%
+#120
+b10110 !
+b10110 )
+b1011 +
+b10110 ,
+0%
+b1011 $
+b1011 (
+b1011 #
+b1011 '
+#125
+b10111 !
+b10111 )
+b1100 &
+b10111 ,
+1%
+#130
+b11000 !
+b11000 )
+b1100 +
+b11000 ,
+0%
+b1100 $
+b1100 (
+b1100 #
+b1100 '
+#135
+b11001 !
+b11001 )
+b1101 &
+b11001 ,
+1%
+#140
+b11010 !
+b11010 )
+b1101 +
+b11010 ,
+0%
+b1101 $
+b1101 (
+b1101 #
+b1101 '
+#145
+b11011 !
+b11011 )
+b1110 &
+b11011 ,
+1%
+#150
+b11100 !
+b11100 )
+b1110 +
+b11100 ,
+0%
+b1110 $
+b1110 (
+b1110 #
+b1110 '
+#155
+b11101 !
+b11101 )
+b1111 &
+b11101 ,
+1%
+#160
+b11110 !
+b11110 )
+b1111 +
+b11110 ,
+0%
+b1111 $
+b1111 (
+b1111 #
+b1111 '
+#165
+b11111 !
+b11111 )
+b10000 &
+b11111 ,
+1%
+#170
+b100000 !
+b100000 )
+b10000 +
+b100000 ,
+0%
+b10000 $
+b10000 (
+b10000 #
+b10000 '
+#175
+b100001 !
+b100001 )
+b10001 &
+b100001 ,
+1%
+#180
+b100010 !
+b100010 )
+b10001 +
+b100010 ,
+0%
+b10001 $
+b10001 (
+b10001 #
+b10001 '
+#185
+b100011 !
+b100011 )
+b10010 &
+b100011 ,
+1%
+#190
+b100100 !
+b100100 )
+b10010 +
+b100100 ,
+0%
+b10010 $
+b10010 (
+b10010 #
+b10010 '
+#195
+b100101 !
+b100101 )
+b10011 &
+b100101 ,
+1%
+#200
+b100110 !
+b100110 )
+b10011 +
+b100110 ,
+0%
+b10011 $
+b10011 (
+b10011 #
+b10011 '
+#205
+b100111 !
+b100111 )
+b10100 &
+b100111 ,
+1%
+#210
+b101000 !
+b101000 )
+b10100 +
+b101000 ,
+0%
+b10100 $
+b10100 (
+b10100 #
+b10100 '
+#215
+b101001 !
+b101001 )
+b10101 &
+b101001 ,
+1%
+#220
+b101010 !
+b101010 )
+b10101 +
+b101010 ,
+0%
+b10101 $
+b10101 (
+b10101 #
+b10101 '
+#225
+b101011 !
+b101011 )
+b10110 &
+b101011 ,
+1%
+#230
+b101100 !
+b101100 )
+b10110 +
+b101100 ,
+0%
+b10110 $
+b10110 (
+b10110 #
+b10110 '
+#235
+b101101 !
+b101101 )
+b10111 &
+b101101 ,
+1%
+#240
+b101110 !
+b101110 )
+b10111 +
+b101110 ,
+0%
+b10111 $
+b10111 (
+b10111 #
+b10111 '
+#245
+b101111 !
+b101111 )
+b11000 &
+b101111 ,
+1%
+#250
+b110000 !
+b110000 )
+b11000 +
+b110000 ,
+0%
+b11000 $
+b11000 (
+b11000 #
+b11000 '
+#255
+b110001 !
+b110001 )
+b11001 &
+b110001 ,
+1%
+#260
+b110010 !
+b110010 )
+b11001 +
+b110010 ,
+0%
+b11001 $
+b11001 (
+b11001 #
+b11001 '
+#265
+b110011 !
+b110011 )
+b11010 &
+b110011 ,
+1%
+#270
+b110100 !
+b110100 )
+b11010 +
+b110100 ,
+0%
+b11010 $
+b11010 (
+b11010 #
+b11010 '
+#275
+b110101 !
+b110101 )
+b11011 &
+b110101 ,
+1%
+#280
+b110110 !
+b110110 )
+b11011 +
+b110110 ,
+0%
+b11011 $
+b11011 (
+b11011 #
+b11011 '
+#285
+b110111 !
+b110111 )
+b11100 &
+b110111 ,
+1%
+#290
+b111000 !
+b111000 )
+b11100 +
+b111000 ,
+0%
+b11100 $
+b11100 (
+b11100 #
+b11100 '
+#295
+b111001 !
+b111001 )
+b11101 &
+b111001 ,
+1%
+#300
+b111010 !
+b111010 )
+b11101 +
+b111010 ,
+0%
+b11101 $
+b11101 (
+b11101 #
+b11101 '
+#305
+b111011 !
+b111011 )
+b11110 &
+b111011 ,
+1%
+#310
+b111100 !
+b111100 )
+b11110 +
+b111100 ,
+0%
+b11110 $
+b11110 (
+b11110 #
+b11110 '
+#315
+b111101 !
+b111101 )
+b11111 &
+b111101 ,
+1%
+#320
+b111110 !
+b111110 )
+b11111 +
+b111110 ,
+0%
+b11111 $
+b11111 (
+b11111 #
+b11111 '
+#325
+b111111 !
+b111111 )
+b100000 &
+b111111 ,
+1%
+#330
+b1000000 !
+b1000000 )
+b100000 +
+b1000000 ,
+0%
+b100000 $
+b100000 (
+b100000 #
+b100000 '
+#335
+b1000001 !
+b1000001 )
+b100001 &
+b1000001 ,
+1%
+#345
